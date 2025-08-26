@@ -1,13 +1,14 @@
 {
     "editor.formatOnSave": true,
     "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         }
     },
-    "ruff.importStrategy": "fromEnvironment",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
     "markdownlint.configFile": ".github/linters/.markdownlint.json",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
